@@ -1,45 +1,47 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tronsa Seguridad Integral, S.A. de C.V.</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <h1>Tronsa Seguridad Integral, S.A. de C.V.</h1>
-        <p>Protección profesional con presencia y confianza</p>
-        <nav>
-            <ul>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="nosotros">
-        <h2>¿Quiénes Somos?</h2>
-        <p>Empresa mexicana con sede en la Ciudad de México, especializada en brindar servicios de seguridad privada de forma presencial, profesional y adaptable a las necesidades del cliente.</p>
-        <img src="img/security-team.jpg" alt="Equipo de Seguridad">
-    </section>
-    <section id="servicios">
-        <h2>Servicios</h2>
-        <ul>
-            <li>Guardias de seguridad intramuros</li>
-            <li>Supervisión 24/7 (esquemas 24x24 y personalizados)</li>
-            <li>Control de accesos y monitoreo de visitantes</li>
-            <li>Protección para condominios, escuelas, plazas y oficinas</li>
-        </ul>
-    </section>
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Escríbenos a: <a href="mailto:contacto@tronsa.com.mx">contacto@tronsa.com.mx</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Tronsa Seguridad Integral, S.A. de C.V.</p>
-    </footer>
-</body>
-</html>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #111;
+}
+header {
+    background: #002244;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    padding: 2rem;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+footer {
+    background: #002244;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
